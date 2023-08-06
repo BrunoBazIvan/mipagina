@@ -1,0 +1,106 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: rgb(201, 185, 113);
+}
+.yo{
+    display: flex;
+}
+h1 {
+    border: #;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    padding: 20px 0;
+    margin: 0;
+  }
+  h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    padding: 20px 0;
+}
+.post{
+    margin: 10px;
+    margin: 5px;
+    width: 300px !important; 
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.post img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.postDescription {
+    margin-top: 10px;
+  }
+.postDescription p{
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+    padding: 10px 0;
+}
+.animacion{
+    margin-top: 40px;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 30px;
+}
+h3{
+    font-weight: 100;
+    color: brown;
+    display: inline-block;
+}
+#texto1{
+    animation: bouncel .5s alternate infinite ease-in;
+}
+.texto2{
+    animation: bounce2 .5s alternate infinite ease-in;
+}
+#texto3{
+    animation: bounce3 .5s alternate infinite ease-in;
+}
+
+div p{
+    font-size: 1.5em;
+}
+
+@keyframes bouncel{
+    0%{
+        transform: translateX(-30%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes bounce2{
+    0%{
+        transform: translateY(-180%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+@keyframes bounce3{
+    0%{
+        transform: translateX(30%);
+    }
+    100%{
+        transform: translateX(-10%);
+    }
+}
+
+
+
+
+
+
+
